@@ -110,10 +110,6 @@ const Comments = (comments) => {
 
       <div>Wybrane komentarze: {commentsMap.size}</div>
 
-      {/* {commentsMap.forEach((comment) => console.log("da" + comment.id))}
-      {commentsMap.forEach((comment) => {
-        return <div>{comment.id}</div>;
-      })} */}
       <Button variant="contained" onClick={exportToJson}>
         Skopiuj do schowka
       </Button>
